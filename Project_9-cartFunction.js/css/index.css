@@ -1,0 +1,61 @@
+html{
+    font-size: 1rem;
+}
+.container{
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+}
+p{
+    font-weight: 700;
+}
+.items{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.item-card{
+    padding: 1rem;
+    box-shadow: 0px 0px 2px 2px rgb(119, 117, 117);
+    margin: 0rem 2rem;
+    width: 9rem;
+}
+.btn{
+    background-color: blue;
+    width: fit-content;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.cart{
+    padding: 1rem;
+    box-shadow: 0px 0px 2px 2px rgb(119, 117, 117);
+}
+.cartname{
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.order {
+    width: fit-content;
+    padding: 5px 10px;
+    /* height: 5rem; */
+    border: 3px black solid;
+    background-color: rgb(111, 111, 240);
+    cursor: pointer;
+}
+.pods{
+    width: 9rem;
+}
+.first{
+    text-align: center;
+}
+.second{
+    text-align: center;
+    /* position: relative; */
+    left: auto;
+    right: auto;
+    margin: auto;
+}
